@@ -10,20 +10,20 @@ module fifo_mem (
     input  wire [6:0]  b_rdptr,
     output reg  [7:0]  data_out
 );
-
+    // depth of fifo = 64 and each with 8bit register
     reg [7:0] mem [0:63];
-
+    
     // Write (wr_clk domain)
     always @(posedge wr_clk) begin
         if (wr_en && !buff_full) begin
-            mem[wr_ptr[5:0]] <= data_in;
+            mem[b_wrptr[5:0]] <= data_in;
         end
     end
 
     // Read (rd_clk domain)
     always @(posedge rd_clk) begin
         if (rd_en && !buff_empty) begin
-            data_out <= mem[rd_ptr[5:0]];
+            data_out <= mem[b_rdptr[5:0]];
         end
     end
 
