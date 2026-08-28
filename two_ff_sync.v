@@ -1,8 +1,8 @@
 module two_ff_sync (
     input  wire clk,
     input  wire rst_n,
-    input reg [6:0] din;
-    output reg [6:0]  q2;
+    input reg [6:0] din,
+    output reg [6:0]  q2
 );
 
     reg [6:0] q1;
