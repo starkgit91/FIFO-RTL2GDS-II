@@ -12,16 +12,18 @@ reg [6:0] g_rdptr_next;
 //fsm
 always @(posedge rd_clk or negedge rd_rst_n) begin
     if(!rd_rst_n)begin
-        {b_rdptr, g_rdptr} <= 0;
+        b_rdptr <= 7'b0;
+        g_rdptr <= 7'b0;
     end
     else begin
-        {b_rdptr, g_rdptr} <= {b_rdptr_next, g_rdptr_next};
+        b_rdptr <= b_rdptr_next;
+        g_rdptr <= g_rdptr_next;
     end
 end
 
 
 always @(*) begin
-    if(rd_en && ~buff_empty)begin
+    if(rd_en && !buff_empty)begin
         b_rdptr_next = b_rdptr + 1'b1;
     end 
 end
