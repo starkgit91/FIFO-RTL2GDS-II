@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  6 2018
+23:39:36
+/home/VDN_61/Desktop/work/Prashant/AsyncFIFO_RTL2GDS-II/AsyncFIFO_RTL2GDS-II.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+/home/VDN_61/Desktop/work/Prashant/AsyncFIFO_RTL2GDS-II/AsyncFIFO_RTL2GDS-II.srcs/sim_1/new/tb_async_fifo.v,1787943170,verilog,,,,tb_async_fifo,,,,,,,,
+/home/VDN_61/Desktop/work/Prashant/AsyncFIFO_RTL2GDS-II/AsyncFIFO_RTL2GDS-II.srcs/sources_1/new/async_fifo.v,1787943092,verilog,,/home/VDN_61/Desktop/work/Prashant/AsyncFIFO_RTL2GDS-II/AsyncFIFO_RTL2GDS-II.srcs/sources_1/new/fifo_empty.v,,async_fifo,,,,,,,,
+/home/VDN_61/Desktop/work/Prashant/AsyncFIFO_RTL2GDS-II/AsyncFIFO_RTL2GDS-II.srcs/sources_1/new/fifo_empty.v,1787943522,verilog,,/home/VDN_61/Desktop/work/Prashant/AsyncFIFO_RTL2GDS-II/AsyncFIFO_RTL2GDS-II.srcs/sources_1/new/fifo_full.v,,fifo_empty,,,,,,,,
+/home/VDN_61/Desktop/work/Prashant/AsyncFIFO_RTL2GDS-II/AsyncFIFO_RTL2GDS-II.srcs/sources_1/new/fifo_full.v,1787943429,verilog,,/home/VDN_61/Desktop/work/Prashant/AsyncFIFO_RTL2GDS-II/AsyncFIFO_RTL2GDS-II.srcs/sources_1/new/fifo_mem.v,,fifo_full,,,,,,,,
+/home/VDN_61/Desktop/work/Prashant/AsyncFIFO_RTL2GDS-II/AsyncFIFO_RTL2GDS-II.srcs/sources_1/new/fifo_mem.v,1787943178,verilog,,/home/VDN_61/Desktop/work/Prashant/AsyncFIFO_RTL2GDS-II/AsyncFIFO_RTL2GDS-II.srcs/sources_1/new/two_ff_sync.v,,fifo_mem,,,,,,,,
+/home/VDN_61/Desktop/work/Prashant/AsyncFIFO_RTL2GDS-II/AsyncFIFO_RTL2GDS-II.srcs/sources_1/new/two_ff_sync.v,1787943287,verilog,,/home/VDN_61/Desktop/work/Prashant/AsyncFIFO_RTL2GDS-II/AsyncFIFO_RTL2GDS-II.srcs/sim_1/new/tb_async_fifo.v,,two_ff_sync,,,,,,,,
